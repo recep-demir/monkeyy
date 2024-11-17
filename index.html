@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry to See You Go</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <nav class="navbar">
+        <div class="logo">Windscribe</div>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#download" class="button">Download</a></li>
+            <li><a href="#login">Log In</a></li>
+            <li class="language"><a href="#">🌐</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header class="header">
+            <h1>Sorry to see you go :(</h1>
+        </header>
+        <main class="main-content">
+            <section class="form-section">
+                <h2>Let us know why you're uninstalling</h2>
+                <p>This will help us improve Windscribe and fix the issues you were having. Most problems can be resolved by contacting <a href="mailto:support@windscribe.com">support@windscribe.com</a></p>
+                <form action="#">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="" placeholder="@mail.com" >
+                    <label for="reason">* Required field:</label>
+                    <select id="reason" name="reason" required>
+                        <option value="" disabled selected>Select a reason</option>
+                        <option value="technical">Technical issues</option>
+                        <option value="not-needed">No longer needed</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+            <section class="image-section">
+                <p>Meet Tiberius, he handles the uninstalls. Try to give him a break, he’s only a monkey and he hates this suit.</p>
+                <img src="./img/OIP.jpg" alt="Monkey in a suit" class="image">
+            </section>
+        </main>
+    </div>
+</body>
+</html>
